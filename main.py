@@ -32,7 +32,7 @@ def next_card():
 def flip_card():
     canvas.itemconfig(canvas_title, text="ENGLISH", fill="white")
     canvas.itemconfig(canvas_word, text=current_card['English'], fill="white")
-    canvas.itemconfig(canvas_image, image=card_front)
+    canvas.itemconfig(canvas_image, image=card_back)
 
 
 def is_known():
